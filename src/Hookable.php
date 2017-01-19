@@ -229,6 +229,26 @@ trait Hookable
     }
 
     /**
+     * Register hook for hasOne.
+     *
+     * @param $related
+     * @param null|string $foreignKey
+     * @param null|string $localKey
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function hasOne($related, $foreignKey = null, $localKey = null)
+    {
+        $hooks = $this->boundHooks(__FUNCTION__);
+        $params = compact('related', 'foreignKey', 'localKey');
+        $payload = $params;
+        $destination = function ($args) {
+            return $args;
+        };
+
+        return $this->pipe($hooks, $payload, $params, $destination);
+    }
+
+    /**
      * Send payload through the pipeline.
      *
      * @param  \Closure[] $pipes
