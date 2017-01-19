@@ -1,17 +1,17 @@
 {
-    "name": "sofa/hookable",
-    "description": "Laravel Eloquent hooks system.",
+    "name": "codedge/hookable",
+    "description": "Laravel Eloquent hooks system - improved.",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/jarektkaczyk/hookable/issues",
-        "source": "https://github.com/jarektkaczyk/hookable"
+        "issues": "https://github.com/codedge/hookable/issues",
+        "source": "https://github.com/codedge/hookable"
     },
-    "keywords": ["eloquent", "laravel"],
+    "keywords": ["eloquent", "laravel", "hooks", "models", "relations"],
     "authors": [
         {
-            "name": "Jarek Tkaczyk",
-            "email": "jarek@softonsofa.com",
-            "homepage": "http://softonsofa.com/",
+            "name": "Holger Lösken",
+            "email": "holger.loesken@codedge.de",
+            "homepage": "http://codedge.de",
             "role": "Developer"
         }
     ],
