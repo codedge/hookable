@@ -9,6 +9,12 @@
     "keywords": ["eloquent", "laravel", "hooks", "models", "relations"],
     "authors": [
         {
+            "name": "Jarek Tkaczyk",
+            "email": "jarek@softonsofa.com",
+            "homepage": "http://softonsofa.com",
+            "role": "Developer"
+        },
+        {
             "name": "Holger Lösken",
             "email": "holger.loesken@codedge.de",
             "homepage": "http://codedge.de",
