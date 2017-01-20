@@ -1,8 +1,8 @@
 <?php
 
-namespace Sofa\Hookable;
+namespace Codedge\Hookable;
 
-class ArgumentBag implements \Sofa\Hookable\Contracts\ArgumentBag
+class ArgumentBag implements \Codedge\Hookable\Contracts\ArgumentBag
 {
     /**
      * Arguments being passed.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sofa\Hookable\Contracts;
+namespace Codedge\Hookable\Contracts;
 
 use Closure;
 
@@ -25,7 +25,7 @@ interface Pipeline
     /**
      * Add the arguments to be passed along with the parcel.
      *
-     * @param  \Sofa\Hookable\Contracts\ArgumentBag $args
+     * @param  \Codedge\Hookable\Contracts\ArgumentBag $args
      * @return $this
      */
     public function with(ArgumentBag $args);

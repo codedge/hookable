@@ -1,6 +1,6 @@
 <?php
 
-namespace Sofa\Hookable;
+namespace Codedge\Hookable;
 
 use Closure;
 
@@ -43,7 +43,7 @@ trait Hookable
      * Create new Hookable query builder for the instance.
      *
      * @param  \Illuminate\Database\Query\Builder
-     * @return \Sofa\Hookable\Builder
+     * @return \Codedge\Hookable\Builder
      */
     public function newEloquentBuilder($query)
     {
@@ -59,10 +59,10 @@ trait Hookable
     /**
      * Allow custom where method calls on the builder.
      *
-     * @param  \Sofa\Hookable\Builder  $query
+     * @param  \Codedge\Hookable\Builder  $query
      * @param  string  $method
-     * @param  \Sofa\Hookable\ArgumentBag  $args
-     * @return \Sofa\Hookable\Builder
+     * @param  \Codedge\Hookable\ArgumentBag  $args
+     * @return \Codedge\Hookable\Builder
      */
     public function queryHook(Builder $query, $method, ArgumentBag $args)
     {

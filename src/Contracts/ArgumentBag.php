@@ -1,6 +1,6 @@
 <?php
 
-namespace Sofa\Hookable\Contracts;
+namespace Codedge\Hookable\Contracts;
 
 interface ArgumentBag
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sofa\Hookable;
+namespace Codedge\Hookable;
 
 use Closure;
 use InvalidArgumentException;
@@ -57,7 +57,7 @@ class Builder extends EloquentBuilder
      * Call custom handlers for where call.
      *
      * @param  string $method
-     * @param  \Sofa\Hookable\ArgumentBag $args
+     * @param  \Codedge\Hookable\ArgumentBag $args
      * @return mixed
      */
     protected function callHook($method, ArgumentBag $args)
@@ -87,7 +87,7 @@ class Builder extends EloquentBuilder
      * Pack arguments in ArgumentBag instance.
      *
      * @param  array  $args
-     * @return \Sofa\Hookable\ArgumentBag
+     * @return \Codedge\Hookable\ArgumentBag
      */
     protected function packArgs(array $args)
     {
@@ -541,7 +541,7 @@ class Builder extends EloquentBuilder
     /**
      * Get a new instance of the Hookable query builder.
      *
-     * @return \Sofa\Hookable\Builder
+     * @return \Codedge\Hookable\Builder
      */
     public function newQuery()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Sofa\Hookable;
+namespace Codedge\Hookable;
 
 use Closure;
-use Sofa\Hookable\Contracts\Pipeline as PipelineContract;
-use Sofa\Hookable\Contracts\ArgumentBag as ArgumentBagContract;
+use Codedge\Hookable\Contracts\Pipeline as PipelineContract;
+use Codedge\Hookable\Contracts\ArgumentBag as ArgumentBagContract;
 
 class Pipeline implements PipelineContract
 {
@@ -25,7 +25,7 @@ class Pipeline implements PipelineContract
     /**
      * Additional parameters passed with the parcel.
      *
-     * @var \Sofa\Eloquence\Contracts\ArgumentBag
+     * @var \Codedge\Eloquence\Contracts\ArgumentBag
      */
     protected $args;
 
